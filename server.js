@@ -11,7 +11,7 @@ mongoose.connect(mongodb)
 
 
 const app = express();
-app.get('/',(req,res)=>res.send('Hello And Congratulation on completing your internship. All the Best for your devops Journey!, testing for build triggers alongside building it'));
+app.get('/',(req,res)=>res.send('Hello And Congratulation on completing your internship. All the Best for your devops Journey!, testing for build triggers alongside building it from jenkins'));
 
 const port = process.env.PORT || 4000;
 
